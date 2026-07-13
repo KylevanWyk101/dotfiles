@@ -1,0 +1,7 @@
+{
+  "claudeCode.preferredLocation": "panel",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "JetBrains Mono, monospace",
+  "terminal.integrated.inheritEnv": false
+}

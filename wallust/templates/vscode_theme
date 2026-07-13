@@ -1,0 +1,98 @@
+{
+  "workbench.colorCustomizations": {
+    "editor.background":                  "{{background}}",
+    "editor.foreground":                  "{{foreground}}",
+    "editor.lineHighlightBackground":     "{{color0}}",
+    "editor.selectionBackground":         "{{color4}}55",
+    "editor.findMatchBackground":         "{{color3}}66",
+    "editor.findMatchHighlightBackground":"{{color3}}33",
+    "editorCursor.foreground":            "{{cursor}}",
+    "editorLineNumber.foreground":        "{{color8}}",
+    "editorLineNumber.activeForeground":  "{{foreground}}",
+    "activityBar.background":             "{{color0}}",
+    "activityBar.foreground":             "{{foreground}}",
+    "activityBarBadge.background":        "{{color6}}",
+    "sideBar.background":                 "{{color0}}",
+    "sideBar.foreground":                 "{{foreground}}",
+    "sideBarSectionHeader.background":    "{{color0}}",
+    "sideBarTitle.foreground":            "{{foreground}}",
+    "statusBar.background":               "{{color1}}",
+    "statusBar.foreground":               "{{foreground}}",
+    "statusBarItem.hoverBackground":      "{{color5}}",
+    "titleBar.activeBackground":          "{{color0}}",
+    "titleBar.activeForeground":          "{{foreground}}",
+    "titleBar.inactiveBackground":        "{{background}}",
+    "tab.activeBackground":               "{{background}}",
+    "tab.inactiveBackground":             "{{color0}}",
+    "tab.activeForeground":               "{{foreground}}",
+    "tab.inactiveForeground":             "{{color8}}",
+    "tab.activeBorderTop":                "{{color6}}",
+    "terminal.background":                "{{background}}",
+    "terminal.foreground":                "{{foreground}}",
+    "terminal.ansiBlack":                 "{{color0}}",
+    "terminal.ansiRed":                   "{{color1}}",
+    "terminal.ansiGreen":                 "{{color2}}",
+    "terminal.ansiYellow":                "{{color3}}",
+    "terminal.ansiBlue":                  "{{color4}}",
+    "terminal.ansiMagenta":               "{{color5}}",
+    "terminal.ansiCyan":                  "{{color6}}",
+    "terminal.ansiWhite":                 "{{color7}}",
+    "terminal.ansiBrightBlack":           "{{color8}}",
+    "terminal.ansiBrightRed":             "{{color9}}",
+    "terminal.ansiBrightGreen":           "{{color10}}",
+    "terminal.ansiBrightYellow":          "{{color11}}",
+    "terminal.ansiBrightBlue":            "{{color12}}",
+    "terminal.ansiBrightMagenta":         "{{color13}}",
+    "terminal.ansiBrightCyan":            "{{color14}}",
+    "terminal.ansiBrightWhite":           "{{color15}}",
+    "panel.background":                   "{{background}}",
+    "panelTitle.activeForeground":        "{{cursor}}",
+    "focusBorder":                        "{{color6}}",
+    "input.background":                   "{{color0}}",
+    "input.foreground":                   "{{foreground}}",
+    "input.border":                       "{{color8}}",
+    "list.activeSelectionBackground":     "{{color4}}44",
+    "list.hoverBackground":               "{{color0}}",
+    "badge.background":                   "{{color6}}",
+    "badge.foreground":                   "{{background}}"
+  },
+  "editor.tokenColorCustomizations": {
+    "comments":  "{{color8}}",
+    "keywords":  "{{color6}}",
+    "strings":   "{{color14}}",
+    "functions": "{{color7}}",
+    "numbers":   "{{color11}}",
+    "variables": "#E0E0E0",
+    "types":     "{{color13}}",
+    "textMateRules": [
+      {
+        "scope": ["keyword", "storage", "storage.type", "storage.modifier"],
+        "settings": { "foreground": "{{color6}}" }
+      },
+      {
+        "scope": ["string", "string.quoted", "string.regexp"],
+        "settings": { "foreground": "{{color14}}" }
+      },
+      {
+        "scope": ["entity.name.function", "support.function", "meta.function-call"],
+        "settings": { "foreground": "{{color7}}" }
+      },
+      {
+        "scope": ["variable", "variable.other", "variable.parameter"],
+        "settings": { "foreground": "#E0E0E0" }
+      },
+      {
+        "scope": ["constant", "constant.numeric", "constant.language"],
+        "settings": { "foreground": "{{color11}}" }
+      },
+      {
+        "scope": ["entity.name.type", "support.type", "support.class"],
+        "settings": { "foreground": "{{color13}}" }
+      },
+      {
+        "scope": ["comment", "punctuation.definition.comment"],
+        "settings": { "foreground": "{{color8}}", "fontStyle": "italic" }
+      }
+    ]
+  }
+}

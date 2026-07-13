@@ -1,0 +1,21 @@
+# Secrets — never commit, even to a private repo
+.git-credentials
+.ssh/
+.gnupg/
+.pki/
+*.pem
+*.key
+*.token
+.env
+.netrc
+
+# Cruft
+*.bak
+*.orig
+*~
+old_*
+*.swp
+
+# Cache/logs
+.cache/
+*.log
