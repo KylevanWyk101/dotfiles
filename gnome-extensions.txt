@@ -1,0 +1,14 @@
+# User-installed (from extensions.gnome.org)
+Vitals@CoreCoding.com                     - Vitals
+blur-my-shell@aunetx                      - Blur my Shell
+dash-to-panel@jderose9.github.com         - Dash to Panel
+weatheroclock@CleoMenezesJr.github.io     - Weather O'Clock
+
+# Ubuntu system defaults (usually already present, listed for reference)
+ding@rastersoft.com                       - Desktop Icons NG
+tiling-assistant@ubuntu.com                - Tiling Assistant
+ubuntu-appindicators@ubuntu.com            - Ubuntu AppIndicators
+ubuntu-dock@ubuntu.com                     - Ubuntu Dock
+web-search-provider@ubuntu.com             - Web Search Provider
+snapd-prompting@canonical.com              - Snapd Prompting
+snapd-search-provider@canonical.com        - Snapd Search Provider
